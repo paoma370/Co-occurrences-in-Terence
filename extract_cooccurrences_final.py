@@ -209,9 +209,9 @@ f.closed
 #	apre e scrive il file csv con le statistiche come dizionario. #dict=dizionario. crea coppie. valore + separatore (comma, tab o altro) 
 #
 ######################################################################
-dict = {'Numero sentences totale:                    ' : len(sentences), 'Numero sentences con 0 lemmi modali:        ' : n_sentences_0l, 'Numero sentences con 1 lemma modale:        ' : n_sentences_1l,\
-  'Numero sentences con 2 lemmi modali:        ' : n_sentences_2l, 'Numero sentences con 3 o piu\' lemmi modali: ' : n_sentences_3l, 'Numero frasi trovate (almeno 2 occorrenze): ' :n_output_sentences}
-w = csv.writer(open(nome_file_senza_estensione+'_statistiche'+'.csv', 'w')) #w è come f, nome qualunque. nome_file_senza_estensione era già stato definito
+dict = {'Total number of sentences:                    ' : len(sentences), 'Sentences with 0 markers:        ' : n_sentences_0l, 'Sentences with 1 marker:        ' : n_sentences_1l,\
+  'Sentences with 2 markers:        ' : n_sentences_2l, 'Sentences with 3 or more markers: ' : n_sentences_3l, 'Sentences with co-occurrence: ' :n_output_sentences}
+w = csv.writer(open(nome_file_senza_estensione+'_statistics'+'.csv', 'w')) #w è come f, nome qualunque. nome_file_senza_estensione era già stato definito
 for key, val in dict.items(): #per ogni chiave e valore in (dict.items() è un metodo di dict)
 	w.writerow([key, val]) #scrive la riga con la dupla key e val
 
@@ -223,17 +223,17 @@ for key, val in dict.items(): #per ogni chiave e valore in (dict.items() è un m
 ######################################################################
 print ('########################################################')
 print ('#')
-print ('# Numero sentences totale:                   ', len(sentences))
-print ('# Numero sentences con 0 lemmi modali:       ', n_sentences_0l)
-print ('# Numero sentences con 1 lemma modale:       ', n_sentences_1l)
-print ('# Numero sentences con 2 lemmi modali:       ', n_sentences_2l)
-print ('# Numero sentences con 3 o piu\' lemmi modali:', n_sentences_3l)
-print ('# Numero frasi trovate (almeno 2 occorrenze: ', n_output_sentences)
+print ('# Total number of sentences:                   ', len(sentences))
+print ('# Sentences with 0 markers:       ', n_sentences_0l)
+print ('# Sentences with 1 marker:       ', n_sentences_1l)
+print ('# Sentences with 2 markers:       ', n_sentences_2l)
+print ('# Sentences with 3 or more markers:', n_sentences_3l)
+print ('# Sentences with co-occurrence ', n_output_sentences)
 print ('#')
-print ('# Output scritto su '+ nome_file_senza_estensione + '_output' + '.conllu')
+print ('# Output written in '+ nome_file_senza_estensione + '_output' + '.conllu')
 print ('#')
-print ('# Output statistiche scritto su '+ nome_file_senza_estensione + '_statistiche' + '.csv')
+print ('# Output stats written in '+ nome_file_senza_estensione + '_statistiche' + '.csv')
 print ('#')
-print ('# Output file intermedio per elaborazione matrice scritto su ' + nome_file_senza_estensione + '_output' + '.lemmi_str')
+print ('# Output file to extract matrix written in ' + nome_file_senza_estensione + '_output' + '.lemmi_str')
 print ('#')
 print ('########################################################')
