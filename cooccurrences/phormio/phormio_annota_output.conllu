@@ -1,0 +1,21 @@
+1	Quum	Quum	SCONJ	O4	_	4	mark	_	start_char=11381|end_char=11385
+2	hoc	hic	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	start_char=11386|end_char=11389
+3	non	non	PART	O4	Polarity=Neg	4	advmod	_	start_char=11390|end_char=11393
+4	possum	possum	VERB	N3|modA|tem1|gen4	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	8	advcl	_	start_char=11394|end_char=11400
+5	,	,	PUNCT	Punc	_	4	punct	_	start_char=11400|end_char=11401
+6	illud	ille	PRON	F1|grn1|casD|gen3	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	8	obj	_	start_char=11402|end_char=11407
+7	minus	minus	ADV	C1|grn2|casG	Degree=Cmp	8	advmod	_	start_char=11408|end_char=11413
+8	possem	possum	VERB	N3|modA|tem2|gen4	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbType=Mod|Voice=Act	0	root	_	start_char=11414|end_char=11420
+9	.	.	PUNCT	Punc	_	8	punct	_	start_char=11420|end_char=11421
+
+1	"Quantum	"Quantum	PRON	F1|grn1|casA|gen3	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	2	nsubj	_	start_char=37433|end_char=37441
+2	potest	possum	VERB	N3|modA|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	0	root	_	start_char=37442|end_char=37448
+3	me	ego	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	4	nsubj	_	start_char=37449|end_char=37451
+4	certiorem	certus	ADJ	C1|grn2|casD|gen1	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	2	xcomp	_	start_char=37452|end_char=37461
+5	,	,	PUNCT	Punc	_	7	punct	_	start_char=37461|end_char=37462
+6	"	"	NOUN	C1|grn1	Number=Sing	7	obj	_	start_char=37462|end_char=37463
+7	inquit	inquam	VERB	N3|modA|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=37464|end_char=37470
+8	,	,	PUNCT	Punc	_	9	punct	_	start_char=37470|end_char=37471
+9	"face	"face	VERB	N3|modA|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	start_char=37472|end_char=37477
+10	;	;	PUNCT	Punc	_	2	punct	_	start_char=37477|end_char=37478
+
