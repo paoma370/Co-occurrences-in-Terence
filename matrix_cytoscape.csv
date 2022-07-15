@@ -1,0 +1,26 @@
+Source,Target,Type,Id,Label,timeset,Weight
+possum,possum,Directed,0,,,5
+possum,licet,Directed,1,,,2
+possum,aequum sum,Directed,2,,,1
+possum,aequus,Directed,3,,,2
+possum,certus,Directed,4,,,1
+queo,aequus,Directed,5,,,1
+decet,licet,Directed,6,,,1
+licet,licet,Directed,7,,,4
+necesse sum,possum,Directed,8,,,1
+opus sum,possum,Directed,9,,,1
+opus sum,forte,Directed,10,,,1
+aequus,opus sum,Directed,11,,,1
+aequus,aequus,Directed,12,,,1
+iniquus,possum,Directed,13,,,1
+iniquus,aequum sum,Directed,14,,,1
+iniquus,aequus,Directed,15,,,2
+certus,incertus,Directed,16,,,1
+incertus,certus,Directed,17,,,1
+dubius,possum,Directed,18,,,1
+dubius,aequus,Directed,19,,,1
+dubius,certus,Directed,20,,,1
+dubius,incertus,Directed,21,,,1
+potestas,licet,Directed,22,,,1
+certe,dubius,Directed,23,,,1
+forte,opus sum,Directed,24,,,1
