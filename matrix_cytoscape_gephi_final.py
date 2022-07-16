@@ -1,5 +1,5 @@
 #Python 3##############################################################################################
-#
+#	#NEED UPDATE
 #	apre un file -- .lemmi_str -- che contiene frasi con 2 o piu' lemmi modali gia' separati,
 #	compila la matrice delle relazioni e la scrive su file csv
 #
