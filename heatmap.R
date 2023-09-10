@@ -9,6 +9,7 @@ head(markers_melt)
 
 ggp <- ggplot(markers_melt, aes(X, variable)) +                           # Create heatmap with ggplot2
   geom_tile(aes(fill = value)) +
-  theme(text = element_text(size = 17))
+  scale_fill_gradient(low = "white", high = "red") +
+  theme(text = element_text(size = 17)) #+ coord_fixed()
 ggp
 
